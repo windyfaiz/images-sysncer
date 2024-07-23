@@ -27,4 +27,4 @@
 
         - name: Use Skopeo Tools Sync Image to Docker Hub
           run: |
-            skopeo copy docker://docker.io/hslr/sun-panel:1.4.0 docker://registry.cn-hangzhou.aliyuncs.com/dkims/sun-panel:1.4.0
+            skopeo copy docker://docker.io//r/xfan1024/qemu-user-static docker://registry.cn-hangzhou.aliyuncs.com/dkims/qemu-user-static
