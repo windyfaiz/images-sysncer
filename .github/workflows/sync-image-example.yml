@@ -27,4 +27,4 @@
 
         - name: Use Skopeo Tools Sync Image to Docker Hub
           run: |
-            skopeo copy docker://hub.docker.com/r/xfan1024/qemu-user-static docker://registry.cn-hangzhou.aliyuncs.com/dkims/qemu-user-static
+            skopeo copy docker://docker.io/xfan1024/qemu-user-static:latest docker://registry.cn-hangzhou.aliyuncs.com/dkims/qemu-user-static
