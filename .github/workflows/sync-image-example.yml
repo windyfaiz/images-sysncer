@@ -27,4 +27,4 @@
 
         - name: Use Skopeo Tools Sync Image to Docker Hub
           run: |
-            skopeo copy docker://registry.k8s.io/ingress-nginx/kube-webhook-certgen:latest-arm64v8 docker://registry.cn-hangzhou.aliyuncs.com/dkims/kube-webhook-certgen
+            skopeo copy docker://registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20230407@sha256:543c40fd093964bc9ab509d3e791f9989963021f1e9e4c9c7b6700b02bfb227b docker://registry.cn-hangzhou.aliyuncs.com/dkims/kube-webhook-certgen
