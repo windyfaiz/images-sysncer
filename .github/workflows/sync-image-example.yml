@@ -27,4 +27,4 @@
 
         - name: Use Skopeo Tools Sync Image to Docker Hub
           run: |
-            skopeo copy docker://docker.io/sdedu/kube-webhook-certgen:v20230407 docker://registry.cn-hangzhou.aliyuncs.com/dkims/kube-webhook-certgen
+            skopeo copy docker://docker.io/nvidia/cuda:11.2.2-cudnn8-devel-centos7 docker://registry.cn-hangzhou.aliyuncs.com/dkims/cuda
