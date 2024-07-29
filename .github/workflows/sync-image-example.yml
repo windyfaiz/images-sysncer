@@ -27,4 +27,4 @@
 
         - name: Use Skopeo Tools Sync Image to Docker Hub
           run: |
-            skopeo copy docker://docker.io/nvidia/cuda:11.2.2-cudnn8-devel-centos7 docker://registry.cn-hangzhou.aliyuncs.com/dkims/cuda
+            skopeo copy docker://docker.io/qingpengpan/kurento-media-server:7.0.0-arm docker://registry.cn-hangzhou.aliyuncs.com/dkims/kms
