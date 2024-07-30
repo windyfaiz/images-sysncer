@@ -27,4 +27,4 @@
 
         - name: Use Skopeo Tools Sync Image to Docker Hub
           run: |
-            skopeo copy docker://docker.io/tehama/kurento-media-server:6.18.0-arm64-ubuntu20 docker://registry.cn-hangzhou.aliyuncs.com/dkims/kms-arm
+            skopeo copy docker://docker.io/18820909494/kurento-media-server:6.18.0 docker://registry.cn-hangzhou.aliyuncs.com/dkims/kms-6.18
