@@ -27,4 +27,4 @@
 
         - name: Use Skopeo Tools Sync Image to Docker Hub
           run: |
-            skopeo copy docker://docker.io/yunshiting/kurento-media-server:7.0.0 docker://registry.cn-hangzhou.aliyuncs.com/dkims/kms-7.0
+            skopeo copy docker://docker.io/kangshuolei/arm64-mysql docker://registry.cn-hangzhou.aliyuncs.com/dkims/arm64-mysql
