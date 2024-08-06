@@ -27,4 +27,4 @@
 
         - name: Use Skopeo Tools Sync Image to Docker Hub
           run: |
-            skopeo copy docker://docker.io/bobsense/redis-arm64 docker://registry.cn-hangzhou.aliyuncs.com/dkims/redis-arm64
+            skopeo copy docker://docker.io/redis docker://registry.cn-hangzhou.aliyuncs.com/dkims/redis
