@@ -27,4 +27,4 @@
 
         - name: Use Skopeo Tools Sync Image to Docker Hub
           run: |
-            skopeo copy docker://docker.io/kangshuolei/arm64-mysql docker://registry.cn-hangzhou.aliyuncs.com/dkims/arm64-mysql
+            skopeo copy docker://docker.io/cehc/nacos-arm docker://registry.cn-hangzhou.aliyuncs.com/dkims/nacos-arm
