@@ -27,4 +27,4 @@
 
         - name: Use Skopeo Tools Sync Image to Docker Hub
           run: |
-            skopeo copy docker://docker.io/cocl666/redis-photon:v2.2.2 docker://registry.cn-hangzhou.aliyuncs.com/dkims/redis-photon
+            skopeo copy docker://docker.io/pedrochristo/nginxarm docker://registry.cn-hangzhou.aliyuncs.com/dkims/nginxarm
