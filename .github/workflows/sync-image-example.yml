@@ -27,4 +27,4 @@
 
         - name: Use Skopeo Tools Sync Image to Docker Hub
           run: |
-            skopeo copy docker://docker.io/pedrochristo/nginxarm docker://registry.cn-hangzhou.aliyuncs.com/dkims/nginxarm
+            skopeo copy docker://docker.io/eipwork/kuboard:v3 docker://registry.cn-hangzhou.aliyuncs.com/dkims/kuboard:v3
