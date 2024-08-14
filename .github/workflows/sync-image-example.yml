@@ -27,4 +27,4 @@
 
         - name: Use Skopeo Tools Sync Image to Docker Hub
           run: |
-            skopeo copy docker://docker.io/eipwork/kuboard:v3 docker://registry.cn-hangzhou.aliyuncs.com/dkims/kuboard:v3
+            skopeo copy docker://docker.io/minio/minio docker://registry.cn-hangzhou.aliyuncs.com/dkims/minio
