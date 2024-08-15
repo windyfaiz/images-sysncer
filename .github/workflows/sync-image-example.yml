@@ -27,4 +27,4 @@
 
         - name: Use Skopeo Tools Sync Image to Docker Hub
           run: |
-            skopeo copy docker://docker.io/mysql:5.7 docker://registry.cn-hangzhou.aliyuncs.com/dkims/mysql:5.7
+            skopeo copy docker://docker.io/openv2x/hippocampus-base docker://registry.cn-hangzhou.aliyuncs.com/dkims/hippocampus-base
