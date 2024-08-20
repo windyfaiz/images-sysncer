@@ -27,4 +27,4 @@
 
         - name: Use Skopeo Tools Sync Image to Docker Hub
           run: |
-            skopeo copy docker://docker.io/mysql:8.0.36 docker://registry.cn-hangzhou.aliyuncs.com/dkims/mysql8
+            skopeo copy docker://docker.io/elasticsearch:7.15.2 docker://registry.cn-hangzhou.aliyuncs.com/dkims/elasticsearch
