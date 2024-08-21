@@ -27,4 +27,4 @@
 
         - name: Use Skopeo Tools Sync Image to Docker Hub
           run: |
-            skopeo copy docker://docker.io/elasticsearch:7.17.20 docker://registry.cn-hangzhou.aliyuncs.com/dkims/elasticsearch
+            skopeo copy docker://docker.io/pangliang/rocketmq-console-ng docker://registry.cn-hangzhou.aliyuncs.com/dkims/rocketmq-console-ng
