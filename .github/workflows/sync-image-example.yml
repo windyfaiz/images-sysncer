@@ -27,4 +27,4 @@
 
         - name: Use Skopeo Tools Sync Image to Docker Hub
           run: |
-            skopeo copy docker://docker.io/wurstmeister/zookeeper docker://registry.cn-hangzhou.aliyuncs.com/dkims/zookeeper:latest
+            skopeo copy docker://docker.io/wurstmeister/kafka docker://registry.cn-hangzhou.aliyuncs.com/dkims/kafka:latest
