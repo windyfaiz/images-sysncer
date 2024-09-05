@@ -27,4 +27,4 @@
 
         - name: Use Skopeo Tools Sync Image to Docker Hub
           run: |
-            skopeo copy docker://docker.io/bitnami/kibana:7.17.20 docker://registry.cn-hangzhou.aliyuncs.com/dkims/kibanna:7.17.20
+            skopeo copy docker://docker.io/wurstmeister/zookeeper docker://registry.cn-hangzhou.aliyuncs.com/dkims/zookeeper:latest
