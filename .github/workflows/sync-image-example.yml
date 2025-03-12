@@ -27,4 +27,4 @@
 
         - name: Use Skopeo Tools Sync Image to Docker Hub
           run: |
-            skopeo copy docker://docker.io/mongo:4.2.21  docker://registry.cn-hangzhou.aliyuncs.com/dkims/mongo:4.2.21
+            skopeo copy docker://docker.getcollate.io/openmetadata/db:1.6.5  docker://registry.cn-hangzhou.aliyuncs.com/openmetadata/db:1.6.5
