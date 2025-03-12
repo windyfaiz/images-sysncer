@@ -27,4 +27,4 @@
 
         - name: Use Skopeo Tools Sync Image to Docker Hub
           run: |
-            skopeo copy docker://docker.getcollate.io/openmetadata/db:1.6.5  docker://registry.cn-hangzhou.aliyuncs.com/openmetadata/db:1.6.5
+            skopeo copy docker://docker.getcollate.io/openmetadata/db:1.6.5  docker://registry.cn-hangzhou.aliyuncs.com/dkims/dkims_db:1.6.5
